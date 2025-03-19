@@ -6,16 +6,18 @@
     <title>My Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #180707;
+            background: linear-gradient(to right, #f4f4f4, #eaeaea);
+            color: #333;
         }
         header {
-            background-color: #eee9e9;
+            background-color: #444;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .container {
             width: 80%;
@@ -24,19 +26,35 @@
         }
         .section {
             margin-bottom: 2rem;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .section h2 {
-            border-bottom: 2px solid #333;
+            border-bottom: 2px solid #444;
             padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .section p {
+            line-height: 1.6;
         }
         footer {
-            background-color: #333;
-            color: #f10e0e;
+            background-color: #444;
+            color: #fff;
             text-align: center;
             padding: 1rem 0;
             position: fixed;
             width: 100%;
             bottom: 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #444;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
